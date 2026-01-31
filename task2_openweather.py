@@ -13,7 +13,7 @@ def main():
     params = {
         "q": city,
         "appid": api_key,
-        "units": "mettric",
+        "units": "metric",
         "lang": "ru"
     }
     response = requests.get(url, params=params, timeout=15)
